@@ -50,7 +50,8 @@ const currentPokemon = pokemonList[pokemonIndex];
   return (
     <div>
       <PokemonCard pokemon={currentPokemon} />
-      {pokemonIndex > 0 && <PreviousButton onClick={goToPreviousPokemon} />}{pokemonIndex < pokemonList.length - 1 && <NextButton onClick={goToNextPokemon} />}
+      {pokemonIndex > 0 && <PreviousButton onClick={goToPreviousPokemon} />}
+      {pokemonIndex < pokemonList.length - 1 && <NextButton onClick={goToNextPokemon} />}
     </div>
   );
 }
