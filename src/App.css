@@ -5,38 +5,23 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
-  padding: 2em;
+  width: 200px;
+  padding: 1rem;
+  background-color: lightgreen;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px gray;
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  text-shadow: 0px 0px 5px gray;
 }
 
-.read-the-docs {
-  color: #888;
+.card-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+  background-color: white;
+  border-radius: inherit;
+  box-shadow: inherit;
 }
